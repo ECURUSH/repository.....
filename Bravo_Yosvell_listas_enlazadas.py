@@ -786,7 +786,7 @@ def linkedlist_insert(self, index, data):
     Inserta un nodo en la posición index de la lista enlazada
     """
     if index < 0 or index > self._size:
-        raise IndexError("Índice fuera de rango")
+        raise IndexError("indice fuera de rango")
     
     new_node = Node(data)
     
@@ -816,10 +816,6 @@ import random
 def benchmark_data_structures():
     """
     Compara el rendimiento de diferentes estructuras
-
-    Logica:
-    - Compara el tiempo de ejecución de operaciones básicas
-    en listas de Python y listas enlazadas
     """
 
     py_list = []
@@ -1129,4 +1125,5 @@ benchmark_data_structures()
 
 print("\nEJERCICIO 20: Análisis de casos de uso")
 print("Respuestas incluidas en comentarios del código")
+
 

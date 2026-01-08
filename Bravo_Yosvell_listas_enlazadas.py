@@ -1121,9 +1121,6 @@ print("Editor multi-cursor ejecutado correctamente")
 print("\nEJERCICIO 19: Benchmark")
 benchmark_data_structures()
 
-# ---------------------------------------------------------------------------
 
-print("\nEJERCICIO 20: Análisis de casos de uso")
-print("Respuestas incluidas en comentarios del código")
 
 
